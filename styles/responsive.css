@@ -16,22 +16,23 @@
         align-items: center;
     }
 /* end of nav responsive */
- .banner-container{
-    flex-direction: column;
 
-    }
-    .banner-text{
-        width: 100%;
-        margin-bottom: 200px;
-    } 
-    .banner-img{
-        width: 100%;
-    } 
-    .banner-img img{
-        width: 100%;
-        height: 100%;
-    }
-    /* banner end */
+.banner-container{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.banner-text{
+    width: 100%;
+    margin: 70px auto;
+}
+.banner-img{
+    width: 100%;
+}
+.banner-img img{
+    width: 100%;
+}
+
 }
 
 
@@ -44,30 +45,15 @@
         padding-left: 10px;
     }
 
-    /* nav end */
+     /* nav end */
 
-    .banner-container{
-        flex-direction: row;
+     .banner-container{
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
 }
-.banner-text{
-    width: 50%;
 
-}
-.banner-img{
-    width: 50%;
+   
 
-}
-.banner-img img{
-    width: 100%;
-    height: 80%;
-   margin: 20px auto;
-}
-.banner-text h3{
-    font-size: 30;
-}
-.banner-text h1{
-    font-size: 50px;
-}
-/* banner end */
-
-}
+    
