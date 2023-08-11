@@ -32,6 +32,19 @@
 .banner-img img{
     width: 100%;
 }
+/* banner ends here */
+.grid-products{
+    width: 100%;
+}
+.products-heading h2{
+    font-size: 30px;
+}
+.products-heading p{
+    font-size: 15px;
+}
+.products-img{
+    grid-template-columns: 1fr;
+}
 
 }
 
@@ -51,6 +64,13 @@
         align-items: center;
         width: 100%;
         margin: auto;
+    }
+    /* banner ended */
+    .grid-products{
+        width: 100%;
+    }
+    .products-img{
+        grid-template-columns:repeat(2, 1fr)
     }
 }
 
