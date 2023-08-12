@@ -229,5 +229,47 @@ body{
    font-size: 18px;
    margin-top: 10px;
 }
+/* second product start */
 
+.second-grid{
+   width: 1990px;
+   min-height: 50px;
+   margin: 150px auto 0;
+   display: flex;
+   align-items: center;
+
+}
+.second-product{
+   width: 50%;
+   text-align: center;
+   margin-top: 50px;
+   
+}
+.second-products-img{
+   width: 50%;
+}
+
+/* .second-products-img img{
+   width: auto;
+   height: auto;
+
+} */
+.image-two{
+   position: relative;
+   right: 150px;
+   top: 850px;
+  
+}
+.big-img{
+height: 70%;
+width: 70%;
+}
+
+.second-product h2{
+font-size: 48px;
+margin-bottom: 25px;
+}
+.second-product p{
+   font-size: 18px;
+}
 

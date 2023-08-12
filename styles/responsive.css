@@ -46,9 +46,33 @@
     grid-template-columns: 1fr;
 }
 .overlay{
-    width: 82%;
+    width: 77%;
 }
+/* products responsive end */
 
+.second-grid{
+    max-width: 100%;
+    flex-direction: column;
+}
+.second-product{
+    width: 100%;
+    margin: 0 auto;
+}
+.second-products-img{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+ .image-two{
+    position: relative;
+    top: 700px;
+    left: 0;
+} 
+.big-img{
+    width: 100%;
+    height: 70%;
+    margin: 0 auto;
+}
 }
 
 
@@ -78,6 +102,23 @@
     .overlay{
         width: 67%;
     }
+    /* products end */
+
+    .second-grid{
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .second-products-img{
+       
+        margin: 0 auto;
+    
+    .big-img{
+        width: 100%;
+        height: 70%;
+        margin: 0 auto;
+    }
+
 }
 
    
