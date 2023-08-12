@@ -79,6 +79,11 @@
     align-items: center;
     margin: 300px auto 0;
 }
+/* footer */
+.footer{
+    width: auto;
+    align-items: center;
+}
 }
 
 
@@ -132,5 +137,8 @@
     align-items: center;
     margin: 350px auto 0;
 }
-
+/* footer */
+.footer{
+    margin-top: 15px;
+}
 }

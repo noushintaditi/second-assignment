@@ -306,3 +306,49 @@ margin-bottom: 25px;
    font-size: 20px;
    font-weight: 600;
 }
+/* player style ended */
+/*  footer start */
+
+.footer{
+   padding: 50px;
+   width: auto;
+   height: 600px;
+   background-color: #0B0223;
+   align-items: center;
+}
+
+.footer-icon{
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+
+}
+.footer-icon p{
+   color: #FFF;
+}
+.footer-icon span{
+   color:#FF42A5;
+}
+
+.footer-span, .footer-icons{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 50px;
+   color: #FFF;
+  margin-top: 20px;
+   font-size: 25px;
+   font-weight: 600;
+   margin-bottom: 10px;
+}
+
+.footer-paragraph,.last-paragraph{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 50px;
+   color: rgba(255, 255, 255, 0.60);
+   margin-top: 30px;
+   font-size: 20px;
+   font-weight: 500;
+}
